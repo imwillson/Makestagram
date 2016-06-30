@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Photo View Controller-->
+        <!--Friend Search View Controller-->
         <scene sceneID="LqB-Lz-0td">
             <objects>
-                <viewController id="T9D-HH-1zl" customClass="PhotoViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="T9D-HH-1zl" customClass="FriendSearchViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4KD-gc-Shh"/>
                         <viewControllerLayoutGuide type="bottom" id="bPr-Xf-d8g"/>
@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="859" y="1402"/>
         </scene>
-        <!--Timeline View Controller-->
+        <!--Photo View Controller-->
         <scene sceneID="MMS-kq-IRN">
             <objects>
-                <viewController id="rnE-JF-iiU" customClass="TimelineViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rnE-JF-iiU" customClass="PhotoViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9yf-w8-FIc"/>
                         <viewControllerLayoutGuide type="bottom" id="XNq-nA-juR"/>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="859" y="716"/>
         </scene>
-        <!--Friend Search View Controller-->
+        <!--Timeline View Controller-->
         <scene sceneID="rfV-2k-Zw2">
             <objects>
-                <viewController id="ZAN-Fd-Jj7" customClass="FriendSearchViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZAN-Fd-Jj7" customClass="TimelineViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gtv-K4-uxK"/>
                         <viewControllerLayoutGuide type="bottom" id="omT-wN-mOd"/>
